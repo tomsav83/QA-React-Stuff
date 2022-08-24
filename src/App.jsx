@@ -1,9 +1,11 @@
+import React from 'react'
 import './App.css'
 import MyComponent from './MyComponent'
 import Converter from './Converter'
 import Login from './Login'
 import Car from './Car'
 import Counter from './Counter'
+import Cart from './Cart'
 
 const App = () => {
   return (
@@ -38,6 +40,13 @@ const App = () => {
         <div>
           <h1>Counter</h1>
           <Counter />
+        </div>
+        <br />
+        <br />
+
+        <div>
+          <h1>Cart</h1>
+          <Cart />
         </div>
         <br />
         <br />
