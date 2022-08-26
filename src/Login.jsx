@@ -11,6 +11,9 @@ const Login = () => {
 
   return (
     <>
+      <br />
+      <h1>Login</h1>
+      <br />
       <form onSubmit={printValues}>
         <label> Username: </label>
         <input

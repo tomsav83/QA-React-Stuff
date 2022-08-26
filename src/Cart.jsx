@@ -26,7 +26,10 @@ const Cart = () => {
 
   return (
     <>
+      <h1>Basket Exercise</h1>
+      <br />
       <h4>Add items to cart:</h4>
+      <br />
       <AddDelete
         handleSubmit={handleSubmit}
         setItem={setItem}

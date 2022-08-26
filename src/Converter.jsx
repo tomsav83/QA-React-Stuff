@@ -13,6 +13,9 @@ const Converter = () => {
 
   return (
     <>
+      <br />
+      <h1>Converter</h1>
+      <br />
       <label htmlFor=''>Miles: </label>
       <input
         type='number'
@@ -29,8 +32,6 @@ const Converter = () => {
         value={kilometers}
         onChange={(e) => setKilometers(e.target.value)}
       />
-      <br />
-      <br />
     </>
   )
 }

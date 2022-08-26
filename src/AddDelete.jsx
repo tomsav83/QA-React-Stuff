@@ -8,6 +8,7 @@ const AddDelete = ({ handleSubmit, setItem, item, items, deleteItem }) => {
           value={item}
         />
         <br />
+        <br />
         <button type='submit'>Add Item to Cart</button>
       </form>
       {items.map((item) => (

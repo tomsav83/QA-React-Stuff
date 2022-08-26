@@ -8,9 +8,13 @@ const Car = () => {
 
   return (
     <>
+      <br />
+      <h1>Car Exercise</h1>
+      <br />
       <h2>
         Input your cars make, model, colour and year into the fields below
       </h2>
+      <br />
       <form>
         <label> Make: </label>
         <label htmlFor='brand'></label>
@@ -21,6 +25,7 @@ const Car = () => {
           onChange={(event) => setBrand(event.target.value)}
         />
         <br />
+        <br />
         <label> Model: </label>
         <label htmlFor='model'></label>
         <input
@@ -29,6 +34,7 @@ const Car = () => {
           value={model}
           onChange={(event) => setModel(event.target.value)}
         />
+        <br />
         <br />
         <label> Colour: </label>
         <label htmlFor='colour'></label>
@@ -39,6 +45,7 @@ const Car = () => {
           onChange={(event) => setColour(event.target.value)}
         />
         <br />
+        <br />
         <label> Year: </label>
         <label htmlFor='year'></label>
         <input
@@ -47,6 +54,7 @@ const Car = () => {
           value={year}
           onChange={(event) => setYear(event.target.value)}
         />
+        <br />
         <br />
       </form>
       <h3>

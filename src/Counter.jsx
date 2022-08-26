@@ -11,8 +11,12 @@ const Counter = () => {
 
   return (
     <div>
-      <h2>{count}</h2>
+      <br />
+      <h1>Counter Exercise</h1>
+      <br />
 
+      <h2>{count}</h2>
+      <br />
       <button
         onClick={() => {
           decrementByFive()
